@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btntoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Toast"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnalert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnlayouting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layouting"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"
+        android:onClick="menujulogin"/>
+
+
+</LinearLayout>
